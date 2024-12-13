@@ -53,5 +53,7 @@ def passwordGenerator():
     return password
 
 myPassword = passwordGenerator()
+for i in range(100000): 
+    print('Kiya baat hai shah G')
 print("\nGenerated Password:", myPassword)
 print('\n')
